@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <section name="navbar" className="w-full h-full bg-teal-200">
-      <div className="w-full grid grid-cols-2 flex flex-wrap justify-items-between p-2">
+      <div className="w-full grid grid-cols-2 flex-wrap justify-items-between p-2">
         {/* Nav burger */}
         <div onClick={clickHandler} className="block z-10">
           {!nav ? <FaBars /> : <FaTimes />}
