@@ -28,70 +28,46 @@ const Throwdown = () => {
         >
           {/* Bridgett */}
           <div>
-            <a
-              href="https://horrorscopes-project.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <img
-                  className="object-cover h-1/5 w-auto py-2"
-                  src={Bridgett}
-                  alt="bridgett icon"
-                ></img>
-              </div>
-            </a>
+            <div>
+              <img
+                className="object-cover h-1/5 w-auto py-2"
+                src={Bridgett}
+                alt="bridgett icon"
+              ></img>
+            </div>
           </div>
 
           {/* Josh */}
           <div>
-            <a
-              href="https://horrorscopes-project.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <img
-                  className="object-cover h-1/5 w-auto py-2"
-                  src={Josh}
-                  alt="josh icon"
-                ></img>
-              </div>
-            </a>
+            <div>
+              <img
+                className="object-cover h-1/5 w-auto py-2"
+                src={Josh}
+                alt="josh icon"
+              ></img>
+            </div>
           </div>
 
           {/* Jules */}
           <div>
-            <a
-              href="https://horrorscopes-project.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <img
-                  className="object-cover h-1/5 w-auto py-2"
-                  src={Jules}
-                  alt="jules icon"
-                ></img>
-              </div>
-            </a>
+            <div>
+              <img
+                className="object-cover h-1/5 w-auto py-2"
+                src={Jules}
+                alt="jules icon"
+              ></img>
+            </div>
           </div>
 
           {/* Kate */}
           <div>
-            <a
-              href="https://horrorscopes-project.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div>
-                <img
-                  className="object-cover h-1/5 w-auto py-2"
-                  src={Kate}
-                  alt="kate icon"
-                ></img>
-              </div>
-            </a>
+            <div>
+              <img
+                className="object-cover h-1/5 w-auto py-2"
+                src={Kate}
+                alt="kate icon"
+              ></img>
+            </div>
           </div>
         </Carousel>
       </div>
