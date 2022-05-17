@@ -8,13 +8,10 @@ const Navbar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <section
-      name="navbar"
-      className="w-full h-full bg-teal-200 flex flex-wrap flex-row justify-between"
-    >
-      <div className="w-full flex flex-column p-2">
+    <section name="navbar" className="w-full h-full bg-teal-200">
+      <div className="w-full grid grid-cols-2 flex flex-wrap justify-items-between p-2">
         {/* Nav burger */}
-        <div onClick={clickHandler} className="inline-block flex-column z-10">
+        <div onClick={clickHandler} className="block z-10">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
         <ul
@@ -44,7 +41,7 @@ const Navbar = () => {
         </ul>
 
         {/* Navbar menu */}
-        <ul className="hidden md:flex py-4 text-2xl text-bold text-purple-900">
+        <ul className="flex py-4 text-2xl text-bold text-purple-900">
           <li>
             <Link to="home" smooth={true} duration={500}>
               Home
