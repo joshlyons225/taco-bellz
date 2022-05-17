@@ -17,6 +17,11 @@ const Navbar = () => {
               Home
             </Link>
           </li>
+          <li>
+            <Link to="throwdown" smooth={true} duration={500}>
+              Throwdown
+            </Link>
+          </li>
         </ul>
 
         {/* Nav burger */}
