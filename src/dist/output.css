@@ -111,6 +111,7 @@ Add the correct font weight in Edge and Safari.
 b,
 strong {
   font-weight: bolder;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /*
@@ -134,6 +135,7 @@ Add the correct font size in all browsers.
 
 small {
   font-size: 80%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 /*
@@ -423,13 +425,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 html {
-  font-family: Josefin Sans, sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 li {
   padding-left: 1rem;
   padding-right: 1rem;
   cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 *, ::before, ::after {
@@ -608,6 +611,7 @@ li {
 
 .font-bold {
   font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .text-indigo-800 {
