@@ -11,7 +11,7 @@ const Navbar = () => {
     <section name="navbar" className="w-full h-full bg-teal-200">
       <div className="w-full grid grid-cols-2 flex-wrap justify-items-between p-2">
         {/* Nav burger */}
-        <div onClick={clickHandler} className="block z-10">
+        <div onClick={clickHandler} className="md:invisible z-10">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
         <ul
@@ -40,19 +40,21 @@ const Navbar = () => {
           </li>
         </ul>
 
-        {/* Navbar menu */}
-        <ul className="flex py-4 text-2xl text-bold text-purple-900">
-          <li>
-            <Link to="home" smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link to="throwdown" smooth={true} duration={500}>
-              Throwdown
-            </Link>
-          </li>
-        </ul>
+        <div className="invisible">
+          {/* Navbar menu */}
+          <ul className="flex md:visible py-4 text-2xl text-bold text-purple-900">
+            <li>
+              <Link to="home" smooth={true} duration={500}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="throwdown" smooth={true} duration={500}>
+                Throwdown
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
