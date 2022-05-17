@@ -8,7 +8,10 @@ import Kate from "../assets/Kate.jpg";
 
 const Throwdown = () => {
   return (
-    <section name="throwdown" className="w-full h-auto">
+    <section name="throwdown" className="w-full h-auto bg-orange-300">
+      <h2 className="font-bold text-4xl text-emerald-500 text-center">
+        Behold the Spinning Glory!!
+      </h2>
       {/* Carousel */}
       <div className="carousel-wrapper">
         <Carousel
