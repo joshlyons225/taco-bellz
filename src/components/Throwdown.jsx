@@ -1,21 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {
-  BBChalupa,
-  BBQuesarito,
-  CBRBurrito,
-  GorditaCrunch,
-  ChikChalupa,
-  MexPizza,
-  DoritosLocos,
-  BellGrande,
-  ChikQuesadilla,
-  SoftTaco,
-  PotTaco,
-  VegCrunchWrap,
-  RanchFryBurr,
-} from "../assets/images/small/index";
+import imgPack from "../assets/images/index";
 
 const Throwdown = () => {
   return (
@@ -41,7 +27,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={BBChalupa}
+                src={imgPack["smImgPack"]["BBChalupa"]}
                 alt="bbchalupa icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -64,7 +50,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={BBQuesarito}
+                src={imgPack["smImgPack"]["BBQuesarito"]}
                 alt="bbquesarito icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -87,7 +73,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={CBRBurrito}
+                src={imgPack["smImgPack"]["CBRBurrito"]}
                 alt="cbrburrito icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -113,7 +99,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={GorditaCrunch}
+                src={imgPack["smImgPack"]["GorditaCrunch"]}
                 alt="gorditacrunch icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -131,7 +117,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={ChikChalupa}
+                src={imgPack["smImgPack"]["ChikChalupa"]}
                 alt="chikchalupa icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -155,7 +141,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={MexPizza}
+                src={imgPack["smImgPack"]["MexPizza"]}
                 alt="mexpizza icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -173,7 +159,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={DoritosLocos}
+                src={imgPack["smImgPack"]["DoritosLocos"]}
                 alt="doritoslocos icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -195,7 +181,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={BellGrande}
+                src={imgPack["smImgPack"]["BellGrande"]}
                 alt="bellgrande icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -216,7 +202,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={ChikQuesadilla}
+                src={imgPack["smImgPack"]["ChikQuesadilla"]}
                 alt="chikquesadilla icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -243,7 +229,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={SoftTaco}
+                src={imgPack["smImgPack"]["SoftTaco"]}
                 alt="softtaco icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -266,7 +252,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={PotTaco}
+                src={imgPack["smImgPack"]["PotTaco"]}
                 alt="pottaco icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -292,7 +278,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={VegCrunchWrap}
+                src={imgPack["smImgPack"]["VegCrunchWrap"]}
                 alt="vegcrunchwrap icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
@@ -316,7 +302,7 @@ const Throwdown = () => {
             <div>
               <img
                 className="object-cover h-1/5 w-auto py-2"
-                src={RanchFryBurr}
+                src={imgPack["smImgPack"]["RanchFryBurr"]}
                 alt="ranchfryburr icon"
               ></img>
               <p className="text-xl text-white pt-3 pb-2 font-bold">
