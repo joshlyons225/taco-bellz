@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll";
+import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { Link } from 'react-scroll';
 
 // create Navbar section function
 const Navbar = () => {
@@ -8,30 +8,33 @@ const Navbar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <section name="navbar" className="w-full h-full bg-teal-200">
-      <div className="w-full grid grid-cols-2 flex-wrap justify-items-between p-2">
+    <section
+      name='navbar'
+      className='w-full h-64 bg-gradient-to-t from-rose-600  to-fuchsia-800'
+    >
+      <div className='w-full grid grid-cols-2 flex-wrap justify-items-between p-2'>
         {/* Nav burger */}
-        <div onClick={clickHandler} className="md:invisible z-10">
+        <div onClick={clickHandler} className='md:invisible z-10'>
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
         <ul
           className={
             !nav
-              ? "invisible"
-              : "absolute top-0 left-0 w-full h-screen flex flex-col"
+              ? 'invisible'
+              : 'absolute top-0 left-0 w-full h-screen flex flex-col'
           }
         >
-          <li className="py-4 text-4xl text-purple-900">
-            {" "}
-            <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
+          <li className='py-4 text-4xl text-purple-900'>
+            {' '}
+            <Link onClick={clickHandler} to='home' smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li className="py-4 text-4xl text-purple-900">
-            {" "}
+          <li className='py-4 text-4xl text-purple-900'>
+            {' '}
             <Link
               onClick={clickHandler}
-              to="throwdown"
+              to='throwdown'
               smooth={true}
               duration={500}
             >
@@ -40,16 +43,16 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div className="invisible">
+        <div className='invisible'>
           {/* Navbar menu */}
-          <ul className="flex md:visible py-4 text-2xl text-bold text-purple-900">
+          <ul className='flex md:visible py-4 text-2xl text-bold text-purple-900'>
             <li>
-              <Link to="home" smooth={true} duration={500}>
+              <Link to='home' smooth={true} duration={500}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="throwdown" smooth={true} duration={500}>
+              <Link to='throwdown' smooth={true} duration={500}>
                 Throwdown
               </Link>
             </li>
