@@ -13,8 +13,7 @@ import PotTaco from "./spicy_potato_soft_taco_640x650.jpg";
 import VegCrunchWrap from "./vegetarian_crunchwrap_640x650.jpg";
 import RanchFryBurr from "./white_hot_ranch_burrito_-_veggie_640x650.jpg";
 
-// export img pack
-export {
+const smImgPack = {
   BBChalupa,
   BBQuesarito,
   CBRBurrito,
@@ -29,3 +28,6 @@ export {
   VegCrunchWrap,
   RanchFryBurr,
 };
+
+// export img pack
+export default smImgPack;
