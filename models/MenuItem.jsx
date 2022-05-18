@@ -15,7 +15,7 @@ const MenuSchema = new Schema(
     category: {
       type: String,
       required: "You have to pick a category to ride this train.",
-      enum: ["Taco", "Burrito", "Specialty, Other"],
+      enum: ["Taco", "Burrito", "Specialty", "Other"],
       default: "Other",
     },
     toppings: [],
