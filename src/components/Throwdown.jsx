@@ -19,9 +19,9 @@ const Throwdown = () => {
           centerMode={true}
           onSwipeMove={true}
           showThumbs={false}
-          onClickItem={() => {
-            window.open(this.index);
-          }}
+          //   onClickItem={() => {
+          //     window.open(this.index);
+          //   }}
         >
           <div>
             <div>
