@@ -3,8 +3,15 @@
 ![License](https://img.shields.io/badge/License-GNU-brightgreen)
 
 ## Description
+USER STORY
+————————
+AS A Taco Bell enthusiast
+
+I WANT a safe space to connect with like minded individuals to vote for Taco Bell favorites and share my creations
+SO THAT I know am ordering their best items while learning new ways to customize favorites
 
 ## GitHub Site
+https://github.com/joshlyons225/taco-bellz
 
 ## Deployed App Link
 
