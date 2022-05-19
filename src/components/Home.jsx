@@ -10,12 +10,20 @@ const Home = () => {
         <div className='p-4 h-auto flex-none'>
           <img src={Logo} alt='Yo Quiero Logo' className='h-80 flex-none'></img>
         </div>
-        <div className='flex-auto w-64'>
-          <h1>YEAH, WE GET IT.</h1>
-          <p>
+        <div className='flex-auto w-50'>
+          <h1 className='text-violet-900 text-7xl py-4'>YEAH, WE GET IT.</h1>
+          <p className='text-violet-900 pr-6'>
             We KNOW that 'yo quiero' means 'I I want'. And we're okay with that.
             Because we are so taken with the Taco Bell realm that we're willing
             to overlook egregious grammatical erros.
+          </p>
+          <h1 className='text-violet-900 text-7xl py-4'>
+            SO LETS HAVE A THROWDOWN.
+          </h1>
+          <p className='text-violet-900 pr-6 pb-4'>
+            You know. The kind where your two favorites in the whole wide world
+            go head-to-head. Cause we're down for some combat, especially when
+            it comes to these contenders.
           </p>
         </div>
       </div>
