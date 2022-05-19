@@ -5,9 +5,11 @@ import Tacoz from "../assets/Tacoz.jpg";
 
 const Home = () => {
   return (
+
     <section name="home" className="bg-red-200">
       <div className="p-4 h-auto">
         <img src={Logo} alt="Yo Quiero Logo" className="w-80"></img>
+
       </div>
 
       {/* CLASS TEST */}
