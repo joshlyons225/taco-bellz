@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <section name='home' className='bg-red-200'>
       <div className='p-4 h-screen'>
-        <img src={Logo} alt='Yo Quiero Logo' className='w-80'></img>
+        <img src={Logo} alt='Yo Quiero Logo' className='h-80'></img>
       </div>
 
       {/* CLASS TEST */}
