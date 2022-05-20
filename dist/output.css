@@ -554,10 +554,6 @@ li {
   width: 100%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
 .w-12 {
   width: 3rem;
 }
@@ -694,6 +690,14 @@ li {
   padding-right: 0.5rem;
 }
 
+.pr-6 {
+  padding-right: 1.5rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -722,8 +726,8 @@ li {
   text-align: center;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
+.text-7xl {
+  font-size: 4.5rem;
   line-height: 1;
 }
 
@@ -851,4 +855,8 @@ li {
 
 h1 {
   font-family: 'Frijole'
+}
+
+h3 {
+  font-family: 'Josefin Sans'
 }
