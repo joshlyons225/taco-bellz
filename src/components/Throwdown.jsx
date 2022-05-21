@@ -18,7 +18,7 @@ const Throwdown = () => {
           infiniteLoop
           useKeyboardArrows
           autoPlay
-          interval={6000}
+          interval={999000}
           centerMode={true}
           onSwipeMove={true}
           showThumbs={false}
@@ -34,7 +34,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['BBChalupa']}
                   alt='bbchalupa icon'
                 ></img>
-                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-7xl absolute top-20 nav'>
                   BLACK BEAN CHALUPA SUPREME
                 </p>
 
