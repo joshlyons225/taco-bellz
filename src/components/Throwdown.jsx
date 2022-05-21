@@ -39,7 +39,7 @@ const Throwdown = () => {
                 </p>
 
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                  <button className='outline bg-transparent text-white rounded-lg py-1 px-3  focus:bg-pink-500'>
+                  <button className='outline bg-transparent text-white rounded-lg py-1 px-3  hover:bg-pink-500'>
                     UPVOTE
                   </button>
                 </div>
