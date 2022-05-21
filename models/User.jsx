@@ -26,13 +26,6 @@ const UserSchema = new Schema(
         ref: "Comment",
       },
     ],
-    // refer to User model to create friends array
-    friends: [
-      {
-        type: Schema.Types.ObjectId,
-        ref: "User",
-      },
-    ],
   },
   {
     // add virtuals and getters:
