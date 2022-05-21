@@ -8,7 +8,7 @@ const Home = () => {
     <section name='home' className='bg-red-200'>
       <div className=' items-center md:flex'>
         <div className='p-4 h-auto sm:flex-col'>
-          <img src={Logo} alt='Yo Quiero Logo' className='h-80 mx-auto'></img>
+          <img src={Logo} alt='Yo Quiero Logo' className='mx-auto h-full'></img>
         </div>
         <div className='flex-auto w-50 mx-auto'>
           <h1 className='text-violet-900 text-7xl py-4'>YEAH, WE GET IT.</h1>
