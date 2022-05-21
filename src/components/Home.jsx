@@ -6,11 +6,11 @@ import Tacoz from '../assets/Tacoz.jpg';
 const Home = () => {
   return (
     <section name='home' className='bg-red-200'>
-      <div className='flex items-center'>
-        <div className='p-4 h-auto flex-none'>
-          <img src={Logo} alt='Yo Quiero Logo' className='h-80 flex-none'></img>
+      <div className=' items-center md:flex'>
+        <div className='p-4 h-auto sm:flex-col'>
+          <img src={Logo} alt='Yo Quiero Logo' className='h-80 mx-auto'></img>
         </div>
-        <div className='flex-auto w-50'>
+        <div className='flex-auto w-50 mx-auto'>
           <h1 className='text-violet-900 text-7xl py-4'>YEAH, WE GET IT.</h1>
           <p className='text-violet-900 pr-6'>
             We KNOW that 'yo quiero' means 'I I want'. And we're okay with that.
