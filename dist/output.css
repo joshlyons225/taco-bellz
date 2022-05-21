@@ -40,7 +40,7 @@ html {
   /* 3 */
   tab-size: 4;
   /* 3 */
-  font-family: "Josefin Sans", ...defaultTheme.fontFamily.sans;
+  font-family: "Josefin Sans", defaultTheme.fontFamily.sans;
   /* 4 */
 }
 
@@ -422,7 +422,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 html {
-  font-family: Londrina Outlines, sans-serif;
+  font-family: 'Londrina Outlines', sans-serif;
 }
 
 li {
@@ -499,6 +499,11 @@ li {
 
 .m-5 {
   margin: 1.25rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mx-auto {
@@ -598,14 +603,14 @@ li {
   justify-content: flex-end;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.whitespace-pre-wrap {
+  white-space: pre-wrap;
 }
 
 .rounded {
@@ -688,6 +693,10 @@ li {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 
 .pr-6 {
@@ -838,6 +847,10 @@ li {
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Frijole&family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
 
+li {
+  font-family: 'Londrina Outlines'
+}
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -853,10 +866,6 @@ li {
   ) !important;
 }
 
-h1 {
-  font-family: 'Frijole'
-}
-
 h3 {
-  font-family: 'Josefin Sans'
+  font-family: 'Josefin Sans' !important
 }
