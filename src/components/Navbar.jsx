@@ -46,17 +46,17 @@ const Navbar = () => {
           className={
             !nav
               ? 'invisible'
-              : 'sticky top-0 left-0 w-full h-full flex flex-col'
+              : 'absolute top-0 w-full h-full flex flex-col inset-x-0 justify-content-center'
           }
         >
-          <li className='py-2 text-xl text-purple-900'>
+          <li className='text-center py-2 text-xl text-purple-900'>
             {' '}
             <Link onClick={clickHandler} to='home' smooth={true} duration={500}>
               Home
             </Link>
             <hr className='background-color-white'></hr>
           </li>
-          <li className='py-2 text-xl text-purple-900'>
+          <li className='text-center py-2 text-xl text-purple-900'>
             {' '}
             <Link
               onClick={clickHandler}
@@ -68,7 +68,7 @@ const Navbar = () => {
             </Link>
             <hr className='background-color-white'></hr>
           </li>
-          <li className='py-2 text-xl text-purple-900'>
+          <li className='text-center py-2 text-xl text-purple-900'>
             {' '}
             <Link onClick={clickHandler} to='#' smooth={true} duration={500}>
               Log In or Log Out
