@@ -18,7 +18,7 @@ const Throwdown = () => {
           infiniteLoop
           useKeyboardArrows
           autoPlay
-          interval={999000}
+          interval={6000}
           centerMode={true}
           onSwipeMove={true}
           showThumbs={false}
