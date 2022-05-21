@@ -9,7 +9,7 @@ const userController = {
         select: "-__v",
       })
       .select("__v")
-      .then((dbCommentData) => res.json(dbCommentData))
+      .then((dbTacoBellData) => res.json(dbTacoBellData))
       .catch((err) => {
         console.log(err);
         res.status(400).json(err);
@@ -24,7 +24,7 @@ const userController = {
         select: "-__v",
       })
       .select("-__v")
-      .then((dbCommentData) => res.json(dbCommentData))
+      .then((dbTacoBellData) => res.json(dbTacoBellData))
       .catch((err) => {
         console.log(err);
         res.status(400).json(err);
@@ -34,7 +34,7 @@ const userController = {
   //   create user
   createUser({ body }, res) {
     User.create(body)
-      .then((dbCommentData) => res.json(dbCommentData))
+      .then((dbTacoBellData) => res.json(dbTacoBellData))
       .catch((err) => res.stauts(400).json(err));
   },
 };
