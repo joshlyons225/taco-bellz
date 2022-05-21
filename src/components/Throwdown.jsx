@@ -38,6 +38,12 @@ const Throwdown = () => {
                   BLACK BEAN CHALUPA SUPREME
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline bg-transparent text-white rounded-lg py-1 px-3  focus:bg-pink-500'>
+                    UPVOTE
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   If there’s anything more carefree than the classic Chalupa, we
                   aren’t familiar with it. Some say that they invented the term
