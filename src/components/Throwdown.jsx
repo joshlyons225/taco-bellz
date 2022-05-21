@@ -15,7 +15,7 @@ const Throwdown = () => {
           infiniteLoop
           useKeyboardArrows
           autoPlay
-          interval={4000}
+          interval={999000}
           centerMode={true}
           onSwipeMove={true}
           showThumbs={false}
@@ -25,15 +25,17 @@ const Throwdown = () => {
         >
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['BBChalupa']}
-                alt='bbchalupa icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                BLACK BEAN CHALUPA SUPREME
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50 relative brightness-50'
+                  src={imgPack['smImgPack']['BBChalupa']}
+                  alt='bbchalupa icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  BLACK BEAN CHALUPA SUPREME
+                </p>
+              </div>
+              <p className='text-white pb-12 pt-3'>
                 If there’s anything more carefree than the classic Chalupa, we
                 aren’t familiar with it. Some say that they invented the term
                 “chill”. Heck, you can’t even say ‘Chalupa’ without a little
@@ -48,15 +50,17 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['BBQuesarito']}
-                alt='bbquesarito icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                BLACK BEAN QUESARITO
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50 relative brightness-50'
+                  src={imgPack['smImgPack']['BBQuesarito']}
+                  alt='bbquesarito icon'
+                ></img>
+                <p className='text-7xl text-white absolute top-20 inset-x-1 font-bold'>
+                  BLACK BEAN QUESARITO
+                </p>
+              </div>
+              <p className='text-white pb-12 pt-3'>
                 A little while ago, in the not-so-distant past, someone in our
                 kitchen had an epiphany: we should take a quesadilla, roll it up
                 like a burrito, and fill it with delicious ingredients. And
@@ -71,19 +75,19 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <div className='relative '>
+              <div className='relative'>
                 <img
                   className='object-cover w-auto py-2 h-1/5 relative brightness-50'
                   src={imgPack['smImgPack']['CBRBurrito']}
                   alt='cbrburrito icon'
                 ></img>
 
-                <p className='text-xl text-white pt-3 pb-2 font-bold absolute top-0 inset-x-1'>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
                   CHEESY BEAN & RICE BURRITO
                 </p>
               </div>
 
-              <p className='text-white pb-12'>
+              <p className='text-white pb-12 pt-3'>
                 So there’s cheesy, and then there’s cheesy. How do you
                 differentiate the two? Because both clearly have totally
                 different meanings. For starters, you can be cheesy by telling
@@ -101,15 +105,17 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['GorditaCrunch']}
-                alt='gorditacrunch icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                CHEESY GORDITA CRUNCH
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['GorditaCrunch']}
+                  alt='gorditacrunch icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  CHEESY GORDITA CRUNCH
+                </p>
+              </div>
+              <p className='text-white pb-12 pt-3'>
                 A warm flatbread layered with three-cheese blend and wrapped
                 around a crunchy taco filled with seasoned beef, spicy ranch
                 sauce, crispy lettuce and shredded cheddar cheese.
@@ -119,15 +125,17 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['ChikChalupa']}
-                alt='chikchalupa icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                CHICKEN CHALUPA SUPREME
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['ChikChalupa']}
+                  alt='chikchalupa icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  CHICKEN CHALUPA SUPREME
+                </p>
+              </div>
+              <p className='text-white pb-12 pt-3'>
                 The Chalupa Supreme sure weaves some beautiful witchcraft. Take
                 a traditional flatbread, something already awesome in its own
                 right, and fry it. Suddenly you have a shell that mysteriously
@@ -143,15 +151,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['MexPizza']}
-                alt='mexpizza icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                MEXICAN PIZZA
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['MexPizza']}
+                  alt='mexpizza icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  MEXICAN PIZZA
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 Seasoned beef and refried beans between two Mexican Pizza shells
                 with Mexican Pizza sauce, three-cheese blend, and tomatoes on
                 top.
@@ -161,15 +172,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['DoritosLocos']}
-                alt='doritoslocos icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                NACHO CHEESE DORITOS® LOCOS TACO SUPREME®
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['DoritosLocos']}
+                  alt='doritoslocos icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  NACHO CHEESE DORITOS® LOCOS TACO SUPREME®
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 As you already know, the Nacho Cheese Doritos® Locos Tacos
                 Supreme® all started with a dream. But with every dream, there’s
                 always that starting point. You know, the leap off. The idea
@@ -183,15 +197,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['BellGrande']}
-                alt='bellgrande icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                NACHOS BELLGRANDE®
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['BellGrande']}
+                  alt='bellgrande icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  NACHOS BELLGRANDE®
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 Welcome to the Nachos Draft: the daily lunch event that you've
                 prepped for all off-season...aka since your last Taco Bell run.
                 The #1 overall pick is an easy choice: the Nachos BellGrande®,
@@ -204,15 +221,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['ChikQuesadilla']}
-                alt='chikquesadilla icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                CHICKEN QUESADILLA
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['ChikQuesadilla']}
+                  alt='chikquesadilla icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  CHICKEN QUESADILLA
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 The Chicken Quesadilla is a purist’s meal; and we say “purist”
                 in the most complimenting way possible. It’s a simple flour
                 tortilla with some grilled chicken, a hefty portion of melted
@@ -231,15 +251,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['SoftTaco']}
-                alt='softtaco icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                CLASSIC BEEF SOFT TACO
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['SoftTaco']}
+                  alt='softtaco icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  CLASSIC BEEF SOFT TACO
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 While the Crunchy Taco’s got a tough outer shell, a bit of a
                 mean streak, and a penchant for picking fights with strangers,
                 the Soft Taco has a nice polite chill. Instead of a tough corn
@@ -254,15 +277,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['PotTaco']}
-                alt='pottaco icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                SPICY POTATO SOFT TACO
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['PotTaco']}
+                  alt='pottaco icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  SPICY POTATO SOFT TACO
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 Who even thought of the game hot potato? Seriously, though. It’s
                 basically a game of catch but with a hot potato. If you think
                 about it, you basically heat a potato hotter than you should and
@@ -280,15 +306,18 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['VegCrunchWrap']}
-                alt='vegcrunchwrap icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                BLACK BEAN CRUNCHWRAP
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['VegCrunchWrap']}
+                  alt='vegcrunchwrap icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  BLACK BEAN CRUNCHWRAP
+                </p>
+              </div>
+
+              <p className='text-white pb-12 pt-3'>
                 The Black Bean Crunchwrap is the vegetarian version of one of
                 our greatest creations. So what’s in one, exactly? We couldn’t
                 be happier that you asked. It starts off with our signature
@@ -304,15 +333,17 @@ const Throwdown = () => {
 
           <div>
             <div>
-              <img
-                className='object-cover h-1/5 w-auto py-2'
-                src={imgPack['smImgPack']['RanchFryBurr']}
-                alt='ranchfryburr icon'
-              ></img>
-              <p className='text-xl text-white pt-3 pb-2 font-bold'>
-                WHITE HOT RANCH FRIES BURRITO
-              </p>
-              <p className='text-white pb-12'>
+              <div className='relative'>
+                <img
+                  className='object-cover w-auto py-2 h-1/5 relative brightness-50'
+                  src={imgPack['smImgPack']['RanchFryBurr']}
+                  alt='ranchfryburr icon'
+                ></img>
+                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                  WHITE HOT RANCH FRIES BURRITO
+                </p>
+              </div>
+              <p className='text-white pb-12 pt-3'>
                 Seasoned Nacho Fries topped with black beans, spicy white hot
                 ranch sauce, nacho cheese sauce, tomatoes, reduced-fat sour
                 cream, and real shredded cheddar cheese wrapped inside a warm
