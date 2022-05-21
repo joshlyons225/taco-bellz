@@ -16,12 +16,12 @@ const Navbar = () => {
         <div className='invisible'>
           {/* Navbar menu */}
           <ul className='flex md:visible py-4 text-2xl text-bold text-purple-900'>
-            <li>
+            <li className='nav'>
               <Link to='home' smooth={true} duration={500}>
                 HOME
               </Link>
             </li>
-            <li>
+            <li className='nav'>
               <Link to='throwdown' smooth={true} duration={500}>
                 THROWDOWN
               </Link>
@@ -30,13 +30,9 @@ const Navbar = () => {
         </div>
 
         {/* Login / Signup */}
-        <div className='hidden md:flex justify-end items-center space-x-3 '>
-          <button className='py-2 px-2 font-medium text-purple-900 hover:bg-purple-900 rounded hover:text-white transition duration-300'>
-            Log In
-          </button>
-          <button className='py-2 px-2 font-medium text-purple-900 hover:bg-purple-900 rounded hover:text-white transition duration-300'>
-            Sign Up
-          </button>
+        <div className='hidden md:flex justify-end items-center space-x-3 mr-3'>
+          <button className='nav'>LOG IN</button>
+          <button className='nav'>SIGN UP</button>
         </div>
         {/* Nav burger */}
         <div onClick={clickHandler} className='md:invisible z-10'>
