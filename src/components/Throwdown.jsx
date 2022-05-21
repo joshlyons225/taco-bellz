@@ -2,13 +2,16 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import imgPack from '../assets/images/index';
+import throwdownLogo from '../assets/images/throwdown-logo.png';
 
 const Throwdown = () => {
   return (
     <section name='throwdown' className='w-full h-auto bg-black'>
-      <h2 className='font-bold text-4xl text-white text-center py-4 pt-9'>
-        TACO BELL THROWDOWN CONTENDERS
-      </h2>
+      <img
+        src={throwdownLogo}
+        alt='taco bell throwdown contenders'
+        className='mx-auto w-1/2 py-3'
+      ></img>
       {/* Carousel */}
       <div className='carousel-wrapper pb-8'>
         <Carousel
@@ -31,7 +34,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['BBChalupa']}
                   alt='bbchalupa icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   BLACK BEAN CHALUPA SUPREME
                 </p>
 
@@ -57,7 +60,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['BBQuesarito']}
                   alt='bbquesarito icon'
                 ></img>
-                <p className='text-7xl text-white absolute top-20 inset-x-1 font-bold'>
+                <p className='text-5xl text-white absolute top-20 inset-x-1 font-bold'>
                   BLACK BEAN QUESARITO
                 </p>
 
@@ -84,7 +87,7 @@ const Throwdown = () => {
                   alt='cbrburrito icon'
                 ></img>
 
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHEESY BEAN & RICE BURRITO
                 </p>
 
@@ -113,7 +116,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['GorditaCrunch']}
                   alt='gorditacrunch icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHEESY GORDITA CRUNCH
                 </p>
 
@@ -134,7 +137,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['ChikChalupa']}
                   alt='chikchalupa icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHICKEN CHALUPA SUPREME
                 </p>
 
@@ -161,7 +164,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['MexPizza']}
                   alt='mexpizza icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   MEXICAN PIZZA
                 </p>
 
@@ -182,7 +185,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['DoritosLocos']}
                   alt='doritoslocos icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   NACHO CHEESE DORITOS® LOCOS TACO SUPREME®
                 </p>
 
@@ -207,7 +210,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['BellGrande']}
                   alt='bellgrande icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   NACHOS BELLGRANDE®
                 </p>
 
@@ -231,7 +234,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['ChikQuesadilla']}
                   alt='chikquesadilla icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHICKEN QUESADILLA
                 </p>
 
@@ -261,7 +264,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['SoftTaco']}
                   alt='softtaco icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CLASSIC BEEF SOFT TACO
                 </p>
 
@@ -287,7 +290,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['PotTaco']}
                   alt='pottaco icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   SPICY POTATO SOFT TACO
                 </p>
 
@@ -317,7 +320,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['VegCrunchWrap']}
                   alt='vegcrunchwrap icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   BLACK BEAN CRUNCHWRAP
                 </p>
 
@@ -344,7 +347,7 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['RanchFryBurr']}
                   alt='ranchfryburr icon'
                 ></img>
-                <p className='text-7xl text-white font-bold absolute top-20 inset-x-1'>
+                <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   WHITE HOT RANCH FRIES BURRITO
                 </p>
 
