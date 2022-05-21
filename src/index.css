@@ -3,16 +3,20 @@
 @tailwind utilities;
 @tailwind screens;
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Frijole&family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
 
 @layer base {
   html {
-    font-family: Londrina Outlines, sans-serif;
+    font-family: 'Londrina Outlines', sans-serif;
   }
   li {
     @apply px-4;
     @apply cursor-pointer;
   }
+}
+
+li {
+  font-family: 'Londrina Outlines'
 }
 
 .content-div {
@@ -28,10 +32,6 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   ) !important;
-}
-
-h1 {
-  font-family: 'Frijole'
 }
 
 h3 {
