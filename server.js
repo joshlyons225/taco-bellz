@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
 
-// express/port
+// setup app through express and define port env
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -15,7 +15,7 @@ app.use(express.static("public"));
 // routing
 app.use(require("./routes"));
 
-// set paths
+// set paths to create build file
 app.use(express.static(path.join(__dirname, "build")));
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
@@ -27,8 +27,8 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/taco-bellz", {
   useUnifiedTopology: true,
 });
 
-// use this to log mongo queries being executed!
+// set log for executed mongo queries
 mongoose.set("debug", true);
 
-// port listener
+// port connection listener
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
