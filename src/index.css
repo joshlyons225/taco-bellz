@@ -87,7 +87,6 @@ h3 {
 .champ {
   font-family: 'Londrina Sketch' !important;
   font-weight: bold;
-  top: 3.5rem;
-  right: 3.5rem;
+
   position: absolute;
 }
