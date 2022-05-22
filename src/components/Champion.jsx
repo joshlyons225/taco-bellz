@@ -5,7 +5,10 @@ import imgPack from '../assets/images/index';
 
 const Champion = () => {
   return (
-    <section name='champ' className='bg-red-800 pb-5'>
+    <section
+      name='champ'
+      className='bg-gradient-to-b from-red-800  to-black pb-5'
+    >
       <div className=' items-center md:flex'>
         <div className='flex-auto mx-auto p-4'>
           <h1 className='text-rose-300 text-7xl py-4  sm:text-center md:text-left'>
@@ -27,7 +30,6 @@ const Champion = () => {
           ></img>
         </div>
       </div>
-
       <div className='relative'>
         <div className='p-4 sm:flex-col'>
           <img
