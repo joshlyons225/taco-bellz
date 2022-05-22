@@ -1,4 +1,4 @@
-# Taco Bell Hellzzzzzz
+# Taco Bell Hellzzzzz
 
 ![License](https://img.shields.io/badge/License-GNU-brightgreen)
 
