@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import imgPack from '../assets/images/index';
 import throwdownLogo from '../assets/images/throwdown-logo.png';
+import { FaArrowUp } from 'react-icons/fa';
 
 const Throwdown = () => {
   return (
@@ -39,8 +40,8 @@ const Throwdown = () => {
                 </p>
 
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-pink-500'>
-                    UPVOTE
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 731
                   </button>
                 </div>
 
