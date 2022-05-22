@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='w-full grid grid-cols-2 flex-wrap justify-items-between p-2'>
         <div className='invisible'>
           {/* Navbar menu */}
-          <ul className='flex md:visible py-4 text-2xl text-bold text-purple-900'>
+          <ul className='flex md:visible py-4 ml-4 text-2xl text-bold'>
             <li className='nav'>
               <Link to='home' smooth={true} duration={500}>
                 HOME
