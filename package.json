@@ -28,7 +28,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "build:css": "tailwind build -i src/index.css -o dist/output.css"
+        "build:css": "tailwind build -i src/index.css -o src/dist/output.css"
     },
     "eslintConfig": {
         "extends": [
