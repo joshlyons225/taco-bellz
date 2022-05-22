@@ -71,6 +71,12 @@ const Throwdown = () => {
                   BLACK BEAN QUESARITO
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 221
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   A little while ago, in the not-so-distant past, someone in our
                   kitchen had an epiphany: we should take a quesadilla, roll it
@@ -97,6 +103,12 @@ const Throwdown = () => {
                 <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHEESY BEAN & RICE BURRITO
                 </p>
+
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 808
+                  </button>
+                </div>
 
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   So there’s cheesy, and then there’s cheesy. How do you
@@ -127,6 +139,12 @@ const Throwdown = () => {
                   CHEESY GORDITA CRUNCH
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 465
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   A warm flatbread layered with three-cheese blend and wrapped
                   around a crunchy taco filled with seasoned beef, spicy ranch
@@ -147,6 +165,12 @@ const Throwdown = () => {
                 <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHICKEN CHALUPA SUPREME
                 </p>
+
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 387
+                  </button>
+                </div>
 
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   The Chalupa Supreme sure weaves some beautiful witchcraft.
@@ -175,6 +199,12 @@ const Throwdown = () => {
                   MEXICAN PIZZA
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 1021
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   Seasoned beef and refried beans between two Mexican Pizza
                   shells with Mexican Pizza sauce, three-cheese blend, and
@@ -195,6 +225,12 @@ const Throwdown = () => {
                 <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   NACHO CHEESE DORITOS® LOCOS TACO SUPREME®
                 </p>
+
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 588
+                  </button>
+                </div>
 
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   As you already know, the Nacho Cheese Doritos® Locos Tacos
@@ -221,6 +257,12 @@ const Throwdown = () => {
                   NACHOS BELLGRANDE®
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 522
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   Welcome to the Nachos Draft: the daily lunch event that you've
                   prepped for all off-season...aka since your last Taco Bell
@@ -244,6 +286,12 @@ const Throwdown = () => {
                 <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   CHICKEN QUESADILLA
                 </p>
+
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 221
+                  </button>
+                </div>
 
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   The Chicken Quesadilla is a purist’s meal; and we say “purist”
@@ -275,6 +323,12 @@ const Throwdown = () => {
                   CLASSIC BEEF SOFT TACO
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 375
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   While the Crunchy Taco’s got a tough outer shell, a bit of a
                   mean streak, and a penchant for picking fights with strangers,
@@ -300,6 +354,12 @@ const Throwdown = () => {
                 <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   SPICY POTATO SOFT TACO
                 </p>
+
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 444
+                  </button>
+                </div>
 
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   Who even thought of the game hot potato? Seriously, though.
@@ -331,6 +391,12 @@ const Throwdown = () => {
                   BLACK BEAN CRUNCHWRAP
                 </p>
 
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 526
+                  </button>
+                </div>
+
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   The Black Bean Crunchwrap is the vegetarian version of one of
                   our greatest creations. So what’s in one, exactly? We couldn’t
@@ -357,6 +423,12 @@ const Throwdown = () => {
                 <p className='text-5xl text-white font-bold absolute top-20 inset-x-1'>
                   WHITE HOT RANCH FRIES BURRITO
                 </p>
+
+                <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
+                  <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
+                    UPVOTE | {FaArrowUp} 681
+                  </button>
+                </div>
 
                 <p className='text-white text-lg pb-12 pt-3 absolute bottom-10 inset-x-1'>
                   Seasoned Nacho Fries topped with black beans, spicy white hot
