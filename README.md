@@ -6,7 +6,7 @@
 * [Description](#DESCRIPTION)
 * [GitHub Site](#GITHUB)
 * [Link to Deployed Application](#LINK)
-* [Screenshot](#SCREENSHOT)
+* [Screenshots](#SCREENSHOTS)
 * [Installation](#INSTALLATION)
 * [Technologies](#TECHNOLOGIES)
 * [Sources](#SOURCES)
@@ -27,8 +27,9 @@ https://github.com/joshlyons225/taco-bellz
 ## Deployed App Link
 Heroku 
 
-## Screenshot
-![image](https://user-images.githubusercontent.com/95149604/169676919-803b78f3-135a-4243-a9ff-d2f92554086f.png)
+## Screenshots
+![image](https://user-images.githubusercontent.com/95149604/169719571-becc1bcc-b7a7-434e-90c8-e67a2b142cde.png)
+![image](https://user-images.githubusercontent.com/95149604/169719599-f0dae5a0-8897-44ac-ab5e-ef5dd6057acf.png)
 
 ## Installation
 1) Clone the repo  
