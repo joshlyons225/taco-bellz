@@ -15,10 +15,15 @@ const Navbar = () => {
       <div className='w-full grid grid-cols-2 flex-wrap justify-items-between p-2'>
         <div className='invisible'>
           {/* Navbar menu */}
-          <ul className='flex md:visible py-4 ml-4 text-2xl text-bold'>
+          <ul className='flex md:visible py-4 ml-4 text-2xl text-bold divide-x'>
             <li className='nav'>
               <Link to='home' smooth={true} duration={500}>
                 HOME
+              </Link>
+            </li>
+            <li className='nav'>
+              <Link to='champ' smooth={true} duration={500}>
+                CHAMP
               </Link>
             </li>
             <li className='nav'>
@@ -30,10 +35,18 @@ const Navbar = () => {
         </div>
 
         {/* Login / Signup */}
-        <div className='hidden md:flex justify-end items-center space-x-3 mr-3'>
+        <ul className='hidden md:flex justify-end items-center space-x-3 mr-3'>
+          <li className='nav'>
+            <Link to='#' smooth={true} duration={500}>
+              LOG IN | SIGN UP
+            </Link>
+          </li>
+        </ul>
+
+        {/* <div className='hidden md:flex justify-end items-center space-x-3 mr-3'>
           <button className='nav'>LOG IN</button>
           <button className='nav'>SIGN UP</button>
-        </div>
+        </div> */}
         {/* Nav burger */}
         <div onClick={clickHandler} className='md:invisible z-10'>
           {!nav ? <FaBars /> : <FaTimes />}
@@ -42,17 +55,16 @@ const Navbar = () => {
           className={
             !nav
               ? 'invisible'
-              : 'absolute top-0 w-full h-full flex flex-col inset-x-0 justify-content-center'
+              : 'absolute top-0 w-full h-full flex flex-col inset-x-0 justify-content-center divide-y'
           }
         >
-          <li className='text-center py-2 text-xl text-purple-900'>
+          <li className='py-2 text-xl nav2 text-center'>
             {' '}
             <Link onClick={clickHandler} to='home' smooth={true} duration={500}>
-              Home
+              HOME
             </Link>
-            <hr className='background-color-white'></hr>
           </li>
-          <li className='text-center py-2 text-xl text-purple-900'>
+          <li className='py-2 text-xl nav2 text-center'>
             {' '}
             <Link
               onClick={clickHandler}
@@ -60,16 +72,25 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              Throwdown
+              CHAMP
             </Link>
-            <hr className='background-color-white'></hr>
           </li>
-          <li className='text-center py-2 text-xl text-purple-900'>
+          <li className='py-2 text-xl nav2 text-center'>
+            {' '}
+            <Link
+              onClick={clickHandler}
+              to='champ'
+              smooth={true}
+              duration={500}
+            >
+              THROWDOWN
+            </Link>
+          </li>
+          <li className='py-2 text-xl nav2 text-center'>
             {' '}
             <Link onClick={clickHandler} to='#' smooth={true} duration={500}>
-              Log In or Log Out
+              LOG IN/SIGNUP OR LOG OUT
             </Link>
-            <hr className='background-color-white'></hr>
           </li>
         </ul>
       </div>

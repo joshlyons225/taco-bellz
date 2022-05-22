@@ -32,7 +32,20 @@ li.nav:hover {
   outline-style: solid;
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
 
+li.nav2 {
+  font-family: 'Londrina Sketch' !important;
+  font-size: xx-large;
+  color: white;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+li.nav2:hover {
+  outline-style: solid;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 button.nav {
