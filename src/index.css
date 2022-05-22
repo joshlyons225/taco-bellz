@@ -15,18 +15,30 @@
   }
 }
 
+ul.nav {
+  padding: 1rem;
+}
+
 li.nav {
   font-family: 'Londrina Sketch' !important;
   font-size: xx-large;
   color: white;
-  padding-left: 2rem;
+  padding: .5rem 1rem;
+}
+
+li.nav:hover {
+  /* background-image: linear-gradient(rgba(234, 91, 93, .3), rgba(71, 11, 145, .3)); */
+  border-radius: .25em;
+  outline-style: solid;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+
 }
 
 button.nav {
   font-family: 'Londrina Sketch' !important;
   font-size: xx-large;
   color: white;
-  padding-left: 2rem;
 }
 
 p.nav {
