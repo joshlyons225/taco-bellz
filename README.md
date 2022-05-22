@@ -15,7 +15,7 @@ https://github.com/joshlyons225/taco-bellz
 Heroku 
 
 ## Screenshots
-
+![image](https://user-images.githubusercontent.com/95149604/169676919-803b78f3-135a-4243-a9ff-d2f92554086f.png)
 ## Installation
 1) Clone the repo  
 2) Run npm install  
