@@ -693,10 +693,6 @@ li {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -862,10 +858,6 @@ li {
   outline-style: solid;
 }
 
-.outline-2 {
-  outline-width: 2px;
-}
-
 .brightness-50 {
   --tw-brightness: brightness(.5);
   -webkit-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -904,18 +896,29 @@ li {
 
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
 
+ul.nav {
+  padding: 1rem;
+}
+
 li.nav {
   font-family: 'Londrina Sketch' !important;
   font-size: xx-large;
   color: white;
-  padding-left: 2rem;
+  padding: .5rem 1rem;
+}
+
+li.nav:hover {
+  /* background-image: linear-gradient(rgba(234, 91, 93, .3), rgba(71, 11, 145, .3)); */
+  border-radius: .25em;
+  outline-style: solid;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 button.nav {
   font-family: 'Londrina Sketch' !important;
   font-size: xx-large;
   color: white;
-  padding-left: 2rem;
 }
 
 p.nav {
@@ -948,10 +951,3 @@ h3 {
   font-family: 'Josefin Sans' !important
 }
 
-button.upvoteBtn {
-  background-color: #ea5b5d;
-  color: white;
-  padding: 1rem 2rem;
-  font-weight: bold;
-  border-radius: 1rem;
-}
