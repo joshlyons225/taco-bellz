@@ -1,7 +1,7 @@
 // import all Models
-import MenuItem from "./MenuItem";
-import User from "./User";
-import Comment from "./Comment";
+const MenuItem = require("./MenuItem");
+const User = require("./User");
+const Comment = require("./Comment");
 
 // export Models
-export default { MenuItem, User, Comment };
+module.exports = { MenuItem, User, Comment };

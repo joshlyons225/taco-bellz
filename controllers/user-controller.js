@@ -1,4 +1,4 @@
-import { User } from "../models";
+const { User } = require("../models");
 
 const userController = {
   // get all users
@@ -37,6 +37,35 @@ const userController = {
       .then((dbTacoBellData) => res.json(dbTacoBellData))
       .catch((err) => res.stauts(400).json(err));
   },
+
+  // update user
+  updateUser({ params, body }, res) {
+    User.findOneAndUpdate({ _id: params.id }, body, {
+      new: true,
+      runValidators: true,
+    })
+      .then((dbTacoBellData) => {
+        if (!dbTacoBellData) {
+          res.status(404).json({ message: "No user fund with that ID!" });
+          return;
+        }
+        res.json(dbTacoBellData);
+      })
+      .catch((err) => res.json(err));
+  },
+
+  // delete user
+  deleteUser({ params }, res) {
+    User.findOneAndDelete({ _id: params.id })
+      .then((dbTacoBellData) => {
+        if (!dbTacoBellData) {
+          res.status(404).json({ message: "No user fund with that ID!" });
+          return;
+        }
+        res.json(dbTacoBellData);
+      })
+      .catch((err) => res.status(400).json(err));
+  },
 };
 
-export default userController;
+module.exports = userController;
