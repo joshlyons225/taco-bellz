@@ -3,7 +3,7 @@
 @tailwind utilities;
 @tailwind screens;
 
-@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
 
 @layer base {
   html {
@@ -84,3 +84,10 @@ h3 {
   font-family: 'Josefin Sans' !important
 }
 
+.champ {
+  font-family: 'Londrina Sketch' !important;
+  font-weight: bold;
+  top: 3.5rem;
+  right: 3.5rem;
+  position: absolute;
+}
