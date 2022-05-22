@@ -14,9 +14,10 @@ const Home = () => {
             YEAH, WE GET IT.
           </h1>
           <p className='text-violet-900 pr-6 sm:text-center md:text-left'>
-            We KNOW that 'yo quiero' means 'I I want'. And we're okay with that.
-            Because we are so taken with the Taco Bell realm that we're willing
-            to overlook egregious grammatical erros.
+            We KNOW that <span className='text-pink-600'>'yo quiero'</span>{' '}
+            means <span className='text-pink-600'>'I I want'</span>. And we're
+            okay with that. Because we are SO taken with the Taco Bell realm
+            that we're willing to overlook egregious grammatical erros.
           </p>
           <h1 className='text-violet-900 text-7xl py-4 sm:text-center md:text-left'>
             SO LETS HAVE A THROWDOWN.
