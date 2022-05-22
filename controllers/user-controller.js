@@ -46,7 +46,9 @@ const userController = {
     })
       .then((dbTacoBellData) => {
         if (!dbTacoBellData) {
-          res.status(404).json({ message: "No user fund with that ID!" });
+          res
+            .status(404)
+            .json({ message: "No user found with that ID. Sad face." });
           return;
         }
         res.json(dbTacoBellData);
@@ -59,7 +61,9 @@ const userController = {
     User.findOneAndDelete({ _id: params.id })
       .then((dbTacoBellData) => {
         if (!dbTacoBellData) {
-          res.status(404).json({ message: "No user fund with that ID!" });
+          res
+            .status(404)
+            .json({ message: "No user found with that ID. Sad face." });
           return;
         }
         res.json(dbTacoBellData);
