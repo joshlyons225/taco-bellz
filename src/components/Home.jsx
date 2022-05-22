@@ -10,7 +10,7 @@ const Home = () => {
           <img src={Logo} alt='Yo Quiero Logo' className='mx-auto h-full'></img>
         </div>
         <div className='flex-auto mx-auto p-4'>
-          <h1 className='text-violet-900 text-7xl py-4 sm:text-center md:text-left'>
+          <h1 className='text-violet-900 text-7xl py-4  sm:text-center md:text-left'>
             YEAH, WE GET IT.
           </h1>
           <p className='text-violet-900 pr-6 sm:text-center md:text-left'>
