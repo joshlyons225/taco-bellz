@@ -7,10 +7,10 @@ const Champion = () => {
     <section name='champ' className='bg-red-800 pb-5'>
       <div className=' items-center md:flex'>
         <div className='flex-auto mx-auto p-4'>
-          <h1 className='text-violet-900 text-7xl py-4  sm:text-center md:text-left'>
+          <h1 className='text-rose-400 text-7xl py-4  sm:text-center md:text-left'>
             WEEKLY CHAMPION
           </h1>
-          <p className='text-violet-900 pr-6 sm:text-center md:text-left'>
+          <p className='text-rose-400 pr-6 sm:text-center md:text-left'>
             In life, there are winners, and there are losers. Here we present
             the cherished Taco Bell menu item that rules them all (if you spent
             all day mashing the UPVOTE button, good for you. We appreciate that
