@@ -19,6 +19,7 @@ async function signupFormHandler(event) {
   }
   if (password.length < 6) {
     alert("How embarrassing. Your password needs to be at least 6 characters.");
+    return;
   }
 
   // signup success and post new user
@@ -34,7 +35,7 @@ async function signupFormHandler(event) {
     });
     if (response.ok) {
       console.log("For Frodo.");
-      document.location.replace("/home");
+      document.location.replace("/loginup");
     } else {
       alert("Error. The server doesn't dig your vibe.");
     }
@@ -68,5 +69,5 @@ async function loginFormHandler(event) {
 }
 
 // go find buttons
-loginForm.addEventListener("click", loginFormHandler);
-signupForm.addEventListener("click", signupFormHandler);
+loginForm.addEventListener(loginButton, loginFormHandler);
+signupForm.addEventListener(submitButton, signupFormHandler);
