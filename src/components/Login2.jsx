@@ -1,11 +1,15 @@
 // import files & dependencies
 import React from 'react';
+import { Link } from 'react-scroll';
 import Logo1 from '../assets/images/campeon.png';
 import Logo from '../assets/images/tall-head.png';
 
 const Login2 = () => {
   return (
-    <section className='h-full gradient-form bg-gray-200 md:h-screen loginup'>
+    <section
+      className='h-full gradient-form bg-gray-200 md:h-screen loginup'
+      id='loginup'
+    >
       <div className='container py-12 px-6 h-full'>
         <div className='flex justify-center items-center flex-wrap h-full g-6 text-gray-800'>
           <div className='xl:w-10/12'>
@@ -20,9 +24,7 @@ const Login2 = () => {
                       </h4>
                     </div>
                     <form>
-                      <p className='mb-4 text-center'>
-                        Please Log In to Your Account
-                      </p>
+                      <p className='mb-4 text-center'>Hey! You Gotta Log In.</p>
                       <div className='mb-4'>
                         <input
                           type='text'
@@ -54,15 +56,19 @@ const Login2 = () => {
                         </a>
                       </div>
                       <div className='flex items-center justify-between pb-6'>
-                        <p className='mb-0 mr-2'>No Account?</p>
-                        <button
-                          type='button'
-                          className='inline-block px-6 py-2 border-2 border-rose-500 text-rose-500 font-medium text-xs leading-tight uppercase rounded hover:bg-rose-500  hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out'
-                          data-mdb-ripple='true'
-                          data-mdb-ripple-color='light'
-                        >
-                          Sign Up
-                        </button>
+                        <p className='mb-0 mr-2 text-gray-500'>
+                          Need An Account?
+                        </p>
+                        <Link to='signup' smooth={true} duration={500}>
+                          <button
+                            type='button'
+                            className='inline-block px-6 py-2 border-2 border-rose-500 text-rose-500 font-medium text-xs leading-tight uppercase rounded hover:bg-rose-500  hover:text-white focus:outline-none focus:ring-0 transition duration-150 ease-in-out'
+                            data-mdb-ripple='true'
+                            data-mdb-ripple-color='light'
+                          >
+                            Sign Up
+                          </button>
+                        </Link>
                       </div>
                     </form>
                   </div>
