@@ -10,11 +10,6 @@ const Navbar = () => {
   return (
     <section
       name='navbar'
-<<<<<<< HEAD
-      className='w-full h-24 bg-gradient-to-t from-rose-600  to-fuchsia-800 overflow-auto'
-    >
-      <div className='w-full grid grid-cols-2 flex-wrap justify-items-between p-2'>
-=======
       className='w-full h-64 bg-gradient-to-b from-purple-800  to-red-200 sticky'
     >
       <div className='w-full grid grid-cols-2 flex-wrap justify-items-between p-2'>
@@ -52,7 +47,6 @@ const Navbar = () => {
           <button className='nav'>LOG IN</button>
           <button className='nav'>SIGN UP</button>
         </div> */}
->>>>>>> main
         {/* Nav burger */}
         <div onClick={clickHandler} className='md:invisible z-10'>
           {!nav ? <FaBars /> : <FaTimes />}
@@ -61,18 +55,6 @@ const Navbar = () => {
           className={
             !nav
               ? 'invisible'
-<<<<<<< HEAD
-              : 'absolute top-0 left-0 w-full h-screen flex flex-col'
-          }
-        >
-          <li className='py-4 text-2xl text-purple-900 container'>
-            {' '}
-            <Link onClick={clickHandler} to='home' smooth={true} duration={500}>
-              Home
-            </Link>
-          </li>
-          <li className='py-4 text-2xl text-purple-900 container'>
-=======
               : 'absolute top-0 w-full h-full flex flex-col inset-x-0 justify-content-center divide-y'
           }
         >
@@ -83,7 +65,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='py-2 text-xl nav2 text-center'>
->>>>>>> main
+
             {' '}
             <Link
               onClick={clickHandler}
