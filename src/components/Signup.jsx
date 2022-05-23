@@ -31,6 +31,7 @@ const Signup = () => {
                 placeholder="Password"
               />
               <button
+                id="submit"
                 type="submit"
                 className="w-full text-center py-3 border-rose-500 text-rose-500 font-medium text-xs leading-tight uppercase rounded hover:bg-rose-500  hover:text-white focus:outline-none my-1"
               >
