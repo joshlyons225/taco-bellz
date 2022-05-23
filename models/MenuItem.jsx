@@ -33,4 +33,4 @@ const MenuSchema = new Schema(
 const MenuItem = model("MenuItem", MenuSchema);
 
 // export the MenuItem model
-export default MenuItem;
+module.exports = MenuItem;

@@ -3,18 +3,66 @@
 @tailwind utilities;
 @tailwind screens;
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;700&family=Londrina+Outline&family=Londrina+Sketch&family=Love+Ya+Like+A+Sister&display=swap');
 
 @layer base {
   html {
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Londrina Outlines', sans-serif;
   }
   li {
     @apply px-4;
     @apply cursor-pointer;
   }
+}
+
+ul.nav {
+  padding: 1rem;
+}
+
+li.nav {
+  font-family: 'Londrina Sketch' !important;
+  font-size: xx-large;
+  color: white;
+  padding: .5rem 1rem;
+}
+
+li.nav:hover {
+  /* background-image: linear-gradient(rgba(234, 91, 93, .3), rgba(71, 11, 145, .3)); */
+  border-radius: .25em;
+  outline-style: solid;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+li.nav2 {
+  font-family: 'Londrina Sketch' !important;
+  font-size: xx-large;
+  color: white;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+
+li.nav2:hover {
+  outline-style: solid;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+button.nav {
+  font-family: 'Londrina Sketch' !important;
+  font-size: xx-large;
+  color: white;
+}
+
+p.nav {
+  font-family: 'Londrina Sketch' !important;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .content-div {
@@ -30,4 +78,39 @@
     rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   ) !important;
+}
+
+h3 {
+  font-family: 'Josefin Sans' !important
+}
+
+.champ {
+  font-family: 'Londrina Sketch' !important;
+  font-weight: bold;
+  position: absolute;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: 'Londrina Sketch';
+}
+
+p {
+  font-family: 'Josefin Sans';
+  font-size: 1.25em
+}
+
+h6.nav {
+  color: white;
+  text-align: center !important;
+  flex: center;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
