@@ -24,7 +24,9 @@ const Login2 = () => {
                       </h4>
                     </div>
                     <form>
-                      <p className='mb-4 text-center'>Hey! You Gotta Log In.</p>
+                      <p className='mb-4 text-center'>
+                        Log In To Get This Party Started.
+                      </p>
                       <div className='mb-4'>
                         <input
                           type='text'
