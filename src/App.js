@@ -7,11 +7,13 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Champion from './components/Champion';
 import Throwdown from './components/Throwdown';
+import Login2 from './components/Login2';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
+      <Login2 />
       <Navbar />
       <Home />
       <Champion />
