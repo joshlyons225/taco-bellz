@@ -37,7 +37,7 @@ const Navbar = () => {
         {/* Login / Signup */}
         <ul className='hidden md:flex justify-end items-center space-x-3 mr-3'>
           <li className='nav'>
-            <Link to='#' smooth={true} duration={500}>
+            <Link to='loginup' smooth={true} duration={500}>
               LOG IN | SIGN UP
             </Link>
           </li>
