@@ -100,3 +100,8 @@ h6 {
   font-weight: inherit;
   font-family: 'Londrina Sketch';
 }
+
+p {
+  font-family: 'Josefin Sans';
+  font-size: 1.25em
+}

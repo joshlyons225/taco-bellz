@@ -9,9 +9,9 @@ const Champion = () => {
       name='champ'
       className='bg-gradient-to-b from-red-800  to-black pb-5'
     >
-      <div className=' items-center md:flex'>
-        <div className='flex-auto mx-auto p-4'>
-          <h1 className='text-rose-300 text-7xl py-4  sm:text-center md:text-left'>
+      <div className=' items-center md:flex py-5'>
+        <div className='flex-auto mx-auto pl-4'>
+          <h1 className='text-rose-300 text-7xl py-4 font-bold sm:text-center md:text-left text-'>
             WEEKLY CHAMPION
           </h1>
           <p className='text-rose-300 sm:text-center md:text-left'>
@@ -22,10 +22,10 @@ const Champion = () => {
           </p>
         </div>
 
-        <div className='p-4 h-auto sm:flex-col'>
+        <div className='pr-4 h-auto sm:flex-col'>
           <img
             src={Campeon}
-            alt='Luchador Chiuahua with the words Taco Bell Campeon'
+            alt='Luchador Chihuahua with the words Taco Bell Campeon'
             className='mx-auto h-full'
           ></img>
         </div>
@@ -42,7 +42,7 @@ const Champion = () => {
             <p className='text-6xl text-rose-500 champ w-1/2'>
               BLACK BEAN CHALUPA SUPREME
             </p>
-            <p className='text-rose-500 absolute right-12 pt-1 pl-3 sm:text-center md:text-left w-1/2'>
+            <p className='text-rose-500 md:absolute right-12 pt-1 pl-3 sm:text-center md:text-left w-1/2'>
               And right here, we have the winner. You know. The kind of thing
               that you keep going back to time and again, although you know it
               just might be a toxic relationship. We're okay with that, too.
