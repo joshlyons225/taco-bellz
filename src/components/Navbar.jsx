@@ -65,7 +65,6 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='py-2 text-xl nav2 text-center'>
-
             {' '}
             <Link
               onClick={clickHandler}
@@ -99,25 +98,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-<<<<<<< HEAD
-
-        <div className='invisible'>
-          {/* Navbar menu */}
-          <ul className='flex md:visible py-4 text-2xl text-bold text-purple-900'>
-            <li>
-              <Link to='home' smooth={true} duration={500}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to='throwdown' smooth={true} duration={500}>
-                Throwdown
-              </Link>
-            </li>
-          </ul>
-        </div>
-=======
->>>>>>> main
       </div>
     </section>
   );
