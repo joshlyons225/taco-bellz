@@ -89,3 +89,14 @@ h3 {
   font-weight: bold;
   position: absolute;
 }
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: 'Londrina Sketch';
+}
