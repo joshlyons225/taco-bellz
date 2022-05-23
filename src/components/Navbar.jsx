@@ -88,7 +88,12 @@ const Navbar = () => {
           </li>
           <li className='py-2 text-xl nav2 text-center'>
             {' '}
-            <Link onClick={clickHandler} to='#' smooth={true} duration={500}>
+            <Link
+              onClick={clickHandler}
+              to='loginup'
+              smooth={true}
+              duration={500}
+            >
               LOG IN/SIGNUP OR LOG OUT
             </Link>
           </li>
