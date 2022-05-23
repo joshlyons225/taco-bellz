@@ -35,9 +35,9 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['BBChalupa']}
                   alt='bbchalupa icon'
                 ></img>
-                <p className='text-7xl absolute top-20 nav'>
+                <h6 className='text-7xl absolute top-20 mx-auto nav text-center'>
                   BLACK BEAN CHALUPA SUPREME
-                </p>
+                </h6>
 
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                   <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>
@@ -67,9 +67,9 @@ const Throwdown = () => {
                   src={imgPack['smImgPack']['BBQuesarito']}
                   alt='bbquesarito icon'
                 ></img>
-                <p className='text-5xl text-white absolute top-20 inset-x-1 font-bold'>
+                <h6 className='text-7xl absolute top-20 mx-auto nav pl-50'>
                   BLACK BEAN QUESARITO
-                </p>
+                </h6>
 
                 <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
                   <button className='outline  text-white rounded-lg py-1 px-3  hover:bg-rose-400 hover:outline-none'>

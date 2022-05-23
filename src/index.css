@@ -105,3 +105,9 @@ p {
   font-family: 'Josefin Sans';
   font-size: 1.25em
 }
+
+h6.nav {
+  color: white;
+  text-align: center !important;
+  flex: center;
+}
