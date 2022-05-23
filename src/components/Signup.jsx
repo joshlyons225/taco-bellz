@@ -5,7 +5,7 @@ import Logo1 from '../assets/images/campeon.png';
 
 const Signup = () => {
   return (
-    <section className='h-full gradient-form bg-gray-200 md:h-screen signup mx-auto my-auto'>
+    <section className='h-full gradient-form bg-gray-200 md:h-screen signup top-5'>
       <div className='bg-grey-lighter min-h-screen flex flex-col'>
         <div className='container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2'>
           <div className='bg-white px-6 py-8 rounded shadow-md text-black w-full'>
