@@ -5,7 +5,6 @@ import Logo1 from "../assets/images/campeon.png";
 
 const Signup = () => {
   return (
-
     <section className="h-full gradient-form bg-gray-200 md:h-screen signup mx-auto my-auto">
       <div className="bg-grey-lighter min-h-screen flex flex-col">
         <div className="container max-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
@@ -16,19 +15,19 @@ const Signup = () => {
               <input
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
-                name="email-signup"
+                id="email-signup"
                 placeholder="Email"
               />
               <input
                 type="text"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
-                name="username-signup"
+                id="username-signup"
                 placeholder="Username"
               />
               <input
                 type="password"
                 className="block border border-grey-light w-full p-3 rounded mb-4"
-                name="password-signup"
+                id="password-signup"
                 placeholder="Password"
               />
               <button
