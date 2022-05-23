@@ -47,6 +47,7 @@ const Login2 = () => {
                         <button
                           className="form-control block px-6 border-rose-500 text-rose-500 font-normal text-xs leading-tight uppercase rounded shadow-md hover:bg-rose-500 hover:text-white hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full mb-3 py-2"
                           type="login-button"
+                          id="login-button"
                         >
                           LOG IN
                         </button>

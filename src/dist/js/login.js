@@ -1,3 +1,9 @@
+// globals
+const submitButton = document.querySelector("#submit");
+const signupForm = document.querySelector("#signup-form");
+const loginButton = document.querySelector("#login-button");
+const loginForm = document.querySelector("#login-form");
+
 // new account signup
 async function signupFormHandler(event) {
   event.preventDefault();
@@ -62,9 +68,5 @@ async function loginFormHandler(event) {
 }
 
 // go find buttons
-document
-  .querySelector(".login-form")
-  .addEventListener("login-button", loginFormHandler);
-document
-  .querySelector("#signup-form")
-  .addEventListener("submit", signupFormHandler);
+loginForm.addEventListener("click", loginFormHandler);
+signupForm.addEventListener("click", signupFormHandler);
